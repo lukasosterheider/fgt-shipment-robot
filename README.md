@@ -17,7 +17,7 @@ This repository provides an AWS lambda function to automate shipment processes a
 
 1. Clone the repository
 2. Add the correct URL, DID/Username and password to the configuration for the WHS and PHA of your choice to `lambda_function.py`
-3. Run the `lambda_function.py` locally to test if it is working
+3. Run the `lambda_function.py` locally to test if it is working (--> temporarily remove comment from the last line at the bottom)
 4. Login to the AWS CLI
 5. Adjust the function name and region with your preferences in the `deploy_lambda.sh`
 5. Deploy the lambda function via the `deploy_lambda.sh` script

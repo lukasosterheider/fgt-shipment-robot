@@ -181,4 +181,5 @@ def lambda_handler(event, context):
 
     return result
 
-lambda_handler("","")
+# Remove comment to run locally
+# lambda_handler("","")
